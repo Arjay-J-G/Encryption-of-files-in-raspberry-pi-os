@@ -103,9 +103,8 @@ while True:
         
     elif choice == "2":
     
-    	file_path = '/home/arjayrasp/MPMCProject/sample_text_file'
+    	file_path = '/home/arjayrasp/MPMCProject/sample_text_file'     #the file path where the text file is present should be given here
     	encrypt_text_file(file_path)
-        #os.remove(file_path)
         
         
       

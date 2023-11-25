@@ -61,7 +61,7 @@ def openssl_encrypt(data, password):                                            
 
 def hide_data_in_image(data_to_hide, image_path):
     secret = lsb.hide(image_path, data_to_hide)
-    secret.save('hacker2.png')
+    secret.save('encrypted_image.png')
     print("Data encrypted and stored in the image successfully.")
 
 
@@ -130,7 +130,7 @@ while True:
         
     elif choice == "6":
     
-        image_with_hidden_data_path = 'hacker2.png'  
+        image_with_hidden_data_path = 'encryped_image.png'  
 
         hidden_data = extract_data_from_image(image_with_hidden_data_path)
         password = "Pwd"                       
